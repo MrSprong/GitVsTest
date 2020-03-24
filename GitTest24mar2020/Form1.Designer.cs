@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnGoTspr = new System.Windows.Forms.Button();
+            this.btnGoTwoTspr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnGoTspr
@@ -41,11 +42,22 @@
             this.btnGoTspr.UseVisualStyleBackColor = true;
             this.btnGoTspr.Click += new System.EventHandler(this.btnGoTspr_Click);
             // 
+            // btnGoTwoTspr
+            // 
+            this.btnGoTwoTspr.Location = new System.Drawing.Point(376, 95);
+            this.btnGoTwoTspr.Name = "btnGoTwoTspr";
+            this.btnGoTwoTspr.Size = new System.Drawing.Size(75, 23);
+            this.btnGoTwoTspr.TabIndex = 1;
+            this.btnGoTwoTspr.Text = "Ok2";
+            this.btnGoTwoTspr.UseVisualStyleBackColor = true;
+            this.btnGoTwoTspr.Click += new System.EventHandler(this.btnGoTwoTspr_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGoTwoTspr);
             this.Controls.Add(this.btnGoTspr);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnGoTspr;
+        private System.Windows.Forms.Button btnGoTwoTspr;
     }
 }
 

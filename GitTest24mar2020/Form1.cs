@@ -21,5 +21,10 @@ namespace GitTest24mar2020
         {
             MessageBox.Show("Test");
         }
+
+        private void btnGoTwoTspr_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Button 2");
+        }
     }
 }

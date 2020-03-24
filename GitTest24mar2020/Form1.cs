@@ -16,5 +16,10 @@ namespace GitTest24mar2020
         {
             InitializeComponent();
         }
+
+        private void btnGoTspr_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

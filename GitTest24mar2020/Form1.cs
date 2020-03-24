@@ -19,7 +19,7 @@ namespace GitTest24mar2020
 
         private void btnGoTspr_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Test");
         }
     }
 }
